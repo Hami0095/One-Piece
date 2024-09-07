@@ -45,7 +45,7 @@ The One Piece Quiz App is an Android application designed to test your knowledge
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Hami0095/demo-gym-website.git
+   git clone https://github.com/Hami0095/One-Piece.git
    ```
 
 2. Open the project in Android Studio.
