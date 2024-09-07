@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Top Image (main1) centered horizontally -->
+    <ImageView
+        android:id="@+id/main1Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="Main Image 1" />
+
+    <!-- Bottom Image (main2) below main1Image and centered horizontally -->
+
+    <!-- Transparent Button over the main2 image -->
+
+    <ImageView
+        android:id="@+id/main2Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main1Image"
+        android:layout_marginTop="-113dp"
+        android:contentDescription="Main Image 2"
+        android:src="@drawable/main2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/PlayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textSize="24sp"
+        android:background="@drawable/rounded_button"
+    android:layout_centerHorizontal="true"
+    android:layout_alignBottom="@id/main2Image"
+    android:layout_marginBottom="20dp"
+        android:textColor="#000"
+
+    />
+
+</RelativeLayout>
