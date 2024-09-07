@@ -41,6 +41,13 @@ The One Piece Quiz App is an Android application designed to test your knowledge
 - **Media Player Management:** Ensures proper handling of the media player lifecycle.
 - **Dynamic Image Changes:** Background images change randomly to enhance user experience.
 
+## Screenshots
+[Main Activity](Screenshots/Screenshot_20240907_113914.png)
+[Quiz Activity - Question Display](Screenshots/Screenshot_20240907_113935.png)
+[Quiz Activity - Question Display](Screenshots/Screenshot_20240907_113947.png)
+[Quiz Activity - Question Display](Screenshots/Screenshot_20240907_114003.png)
+[Quiz Activity - Question Display](Screenshots/Screenshot_20240907_114018.png)
+
 ## Installation
 
 1. Clone the repository:
